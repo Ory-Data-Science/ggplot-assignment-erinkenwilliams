@@ -9,3 +9,6 @@ dat <- read.csv(url("http://esapubs.org/archive/ecol/E084/093/Mammal_lifehistori
 
 Part 3.1
 
+ggplot(data = dat, aes(x = mass.g., y = newborn.g.)) + 
+  labs(x = "adult mass", y = "newborn mass") +
+  geom_point()
