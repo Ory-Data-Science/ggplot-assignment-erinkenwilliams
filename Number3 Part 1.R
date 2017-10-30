@@ -8,6 +8,11 @@ dat <- read.csv(url("http://esapubs.org/archive/ecol/E084/093/Mammal_lifehistori
 #rest of your code goes here
 
 
-
+Number 3 Part 1
+ggplot(data = dat, aes(x = mass.g., y = newborn.g.)) +
+  
+  labs(x = "Adult Mass", y = "Newborn Mass") +
+  
+  geom_point()
 
 
